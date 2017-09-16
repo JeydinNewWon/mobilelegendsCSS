@@ -1,111 +1,99 @@
 #header {
-	background: url(%%header%%) center center;
-	background-size: cover
+    background: url(%%header%%) center center;
+    background-size: cover
 }
-
 #header-bottom-left {
-	height: 166px
+    height: 223px
 }
-
 #header:before {
-	content: '';
-	display: block;
-	position: absolute;
-	right: 0;
-	height: 27px;
-	width: 100%;
-	background: #fff;
-	top: 86%;
-	left: 0
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 27px;
+    width: 100%;
+    background: #fff;
+    top: 89%;
+    left: 0;
+    border-bottom: 1px solid gray
 }
-
 #header-img,
 .hover.pagename.redditname {
-	position: absolute;
-	font-size: 0!important
+    position: absolute;
+    font-size: 0!important
 }
-
 .hover.pagename.redditname {
-	bottom: 122.5%;
-	left: 25%
+    bottom: 106%;
+    left: 28%
 }
-
 .hover.pagename.redditname a {
-	display: block!important;
-	background: url(%%ml-logo%%);
-	height: 256px;
-	width: 521px;
-	top: 10%;
-	bottom: 22%;
-	transform: scale(.4);
-	position: absolute;
-	text-indent: -9999em;
-	margin-bottom: 20%
+    display: block!important;
+    background: url(%%ml-logo%%);
+    height: 256px;
+    width: 521px;
+    top: 10%;
+    bottom: 22%;
+    transform: scale(.4);
+    position: absolute;
+    text-indent: -9999em;
+    margin-bottom: 20%
 }
-
 #header-bottom-right {
-	background: #fff;
-	border: 0;
-	position: absolute;
-	margin-top: 143px
+    background: #fff;
+    border: 0;
+    position: absolute;
+    margin-top: 199px
 }
-
 #header-bottom-right .flat-list.hover .pref-lang.choice,
 #header-bottom-right .logout.hover,
 #header-bottom-right .user {
-	font-size: 14px;
-	color: rgba(0, 0, 0, .7)!important;
-	font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7)!important;
+    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif
 }
-
 #header-bottom-right .user>a {
-	color: rgba(0, 0, 0, .7)!important
+    color: rgba(0, 0, 0, .7)!important
 }
-
 #header-bottom-right .separator {
-	margin: 0 5px
+    margin: 0 5px
 }
-
 .tabmenu {
-	margin-top: 153px;
-	margin-left: 0
+    z-index: 2;
+    margin-top: 207px;
+    margin-left: 0
 }
-
 .tabmenu li {
-	margin: 0;
-	position: relative;
-	bottom: 7px
+    margin: 0;
+    position: relative;
+    bottom: 7px
 }
-
 .tabmenu li a {
-	font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	padding: 7px 10px!important;
-	border: 1px solid transparent;
-	box-sizing: border-box;
-	background: #fff;
-	text-align: center
+    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 5.5px 10px!important;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center
 }
-
 .tabmenu li a:hover,
 .tabmenu li.selected a:hover {
-	color: #fff;
-	background: #369;
-	border: 1px solid #369;
-	transition-property: background, color, border;
-	-webkit-transition-property: background, color, border;
-	-moz-transition-property: background, color, border;
-	-o-transition-property: background, color, border;
-	transition-timing-function: ease-in-out;
-	transition-duration: .4s, .4s, .4s;
-	-webkit-transition-duration: .4s, .4s, .4s;
-	-moz-transition-duration: .4s, .4s, .4s;
-	-o-transition-duration: .4s, .4s, .4s;
+    color: #fff;
+    background: #369;
+    border: 1px solid #369;
+    transition-property: background, color, border;
+    -webkit-transition-property: background, color, border;
+    -moz-transition-property: background, color, border;
+    -o-transition-property: background, color, border;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s, .4s, .4s;
+    -webkit-transition-duration: .4s, .4s, .4s;
+    -moz-transition-duration: .4s, .4s, .4s;
+    -o-transition-duration: .4s, .4s, .4s;
 }
-
 .tabmenu li.selected a {
-	border-top: 1px solid #369!important;
-	border: 1px solid transparent;
-	color: #369
+    border-top: 1px solid #369!important;
+    border: 1px solid transparent;
+    color: #369
 }
