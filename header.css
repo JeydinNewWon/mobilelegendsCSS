@@ -12,10 +12,10 @@
     right: 0;
     height: 27px;
     width: 100%;
-    background: #fff;
+    background: #2A2953;
     top: 89%;
     left: 0;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
 }
 #header-img,
 .hover.pagename.redditname {
@@ -39,20 +39,21 @@
     margin-bottom: 20%
 }
 #header-bottom-right {
-    background: #fff;
-    border: 0;
+    background: #2A2953;
+    border-radius: 0;
     position: absolute;
-    margin-top: 199px
+    margin-top: 198px
 }
 #header-bottom-right .flat-list.hover .pref-lang.choice,
 #header-bottom-right .logout.hover,
 #header-bottom-right .user {
     font-size: 14px;
-    color: rgba(0, 0, 0, .7)!important;
-    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif
+    color: rgba(255, 255, 255, .7)!important;
+    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 #header-bottom-right .user>a {
-    color: rgba(0, 0, 0, .7)!important
+    color: rgba(255, 255, 255, .7)!important
 }
 #header-bottom-right .separator {
     margin: 0 5px
@@ -65,24 +66,25 @@
 .tabmenu li {
     margin: 0;
     position: relative;
-    bottom: 7px
+    bottom: 6px;
+    font-family: verdana, arial, helvetica, sans-serif
 }
 .tabmenu li a {
-    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    padding: 5.5px 10px!important;
-    border: 1px solid transparent;
+    padding: 5.5px 8px!important;
+    border-top: 1px solid transparent;
     box-sizing: border-box;
-    background: #fff;
-    text-align: center
+    background: #2A2953;
+    text-align: center;
+    color: white
 }
 .tabmenu li a:hover,
 .tabmenu li.selected a:hover {
-    color: #fff;
-    background: #369;
-    border: 1px solid #369;
-    transition-property: background, color, border;
+    color: white;
+    background: #6066BD;
+    border-top: 1px solid white;
+    transition-property: background, color, border-top;
     -webkit-transition-property: background, color, border;
     -moz-transition-property: background, color, border;
     -o-transition-property: background, color, border;
@@ -93,7 +95,11 @@
     -o-transition-duration: .4s, .4s, .4s;
 }
 .tabmenu li.selected a {
-    border-top: 1px solid #369!important;
-    border: 1px solid transparent;
-    color: #369
+    border-top: 1px solid white!important;
+    color: white;
+    background: #2A2953;
+    border: 0px;
+}
+.comments-page .tabmenu {
+    margin-top: 208px
 }
