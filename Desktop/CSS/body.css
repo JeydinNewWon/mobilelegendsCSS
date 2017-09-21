@@ -1,12 +1,21 @@
 #siteTable {
-    padding-top: 45px;
+    padding-top: 30px;
     display: block;
     padding-right: 10px;
     margin-right: 10px;
     overflow: hidden;
 }
-#RESStyleSheetTipPane-header,
-#RESStyleSheetTipPane {
+#siteTable:before {
+    display: flex;
+    content: '';
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: #638be4;
+    align-items: center;
+    justify-content: center;
+}
+#RESStyleSheetTipPane-header, #RESStyleSheetTipPane {
     display: none !important;
 }
 .sitetable {
@@ -29,14 +38,13 @@
 .rank {
     display: none;
 }
-.child,
-.res .RES-keyNav-activeElement .md-container,
-.res .link .RES-keyNav-activeElement {
+.child, .res .RES-keyNav-activeElement .md-container, .res .link .RES-keyNav-activeElement {
     background: transparent !important;
 }
 .res-filterline {
-    width: 935px !important;
+    width: 1013px !important;
     z-index: 40;
+    margin-bottom: -16px;
 }
 .thing {
     padding: 5px;
@@ -44,22 +52,15 @@
     /*box-shadow: 0 1px 3px rgba(173,178,255,0.8);*/
     /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);*/
     /*background: #373871;*/
-
     background: #fff;
     margin-bottom: 0;
-    width: 934px;
-    /*width: 100%;*/
-
+    width: 100%;
     border-bottom: 1px solid #e0d2d2;
 }
-.link a.title:visited,
-.thing .title:visited,
-.thing.visited .title {
+.link a.title:visited, .thing .title:visited, .thing.visited .title {
     color: #b0a2e6;
 }
-body,
-#sr-form,
-.create-reddit.fancy-settings.thing {
+body, #sr-form, .create-reddit.fancy-settings.thing {
     background: #2A2953;
 }
 .linefield {
@@ -72,10 +73,7 @@ body,
     padding-top: 50px !important;
     box-sizing: border-box;
 }
-body .btn,
-body button,
-.c-btn-primary,
-.wiki-page .wiki-page-content .wiki_button {
+body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_button {
     display: block;
     height: 30px;
     line-height: 30px;
