@@ -1,0 +1,166 @@
+
+.side {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    margin-right: 30px;
+    border: 1px solid #e3e3e3;
+    width: 300px !important;
+    margin-left: 25px;
+    float: right;
+    z-index: 999;
+}
+.side .md blockquote:first-of-type {
+    background: #414170;
+    display: block;
+    height: 50px;
+    border: 0px;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 55%;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    top: 229.203px;
+}
+.res-accountSwitcher-dropDownStyle-alien .side .md blockquote:first-of-type {
+    bottom: 371.797px !important;
+}
+#search {
+    position: absolute;
+    z-index: 999;
+    top: 248px;
+    /*left: 1100.469px;*/
+
+    right: 28px;
+    bottom: 0;
+    border-radius: 3px !important;
+    white-space: nowrap;
+}
+#search input[type=text] {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid white !important;
+    color: white;
+    vertical-align: middle;
+}
+.morelink {
+    display: block;
+    width: 268px;
+    height: 29px;
+    background: #638be4;
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-image: none !important;
+    margin: 0 auto;
+    margin-bottom: 10px !important;
+}
+.morelink a {
+    color: white !important;
+    font-family: Helvetica, sans-serif;
+    font-weight: 550;
+}
+.morelink a:hover {
+    cursor: pointer;
+}
+.nub {
+    display: none;
+}
+/*Margin Stuff*/
+
+.side .spacer {
+    margin: 0 0 16px;
+}
+.side .md {
+    margin: 0px 5px;
+}
+.side .titlebox {
+    margin: 0px 8px;
+}
+.side .content {
+    margin: 0px 12px;
+    margin-top: 10px !important;
+}
+.side .titlebox,
+.side #moderation_tools,
+.side .sidecontentbox {
+    display: block;
+    margin-bottom: 10px;
+}
+.side blockquote:nth-of-type(2) {
+    position: absolute;
+    display: flex;
+    flex-direction: flex-start;
+    /*min-width: 500px;*/
+    /*width: 66.35%;*/
+
+    width: 918px;
+    top: 313.594px;
+    left: 11px;
+    right: 2%;
+    bottom: 0px;
+    height: 35px;
+    z-index: -1;
+    background: #638be4;
+    line-height: 35px;
+    border: 0px;
+    margin-left: 35px;
+}
+.side .md>blockquote:nth-of-type(2)>p {
+    display: block;
+    width: 210px;
+    height: 32px;
+    box-sizing: border-box;
+    margin: 0 30px 0 0;
+    padding: 1px;
+    border-right: 1px solid rgba(0, 0, 0, .06);
+}
+body:not(.listing-page) .side blockquote:nth-of-type(2) {
+    display: none;
+}
+.side h1 {
+    display: inline-block !important;
+    height: 20px;
+    width: 100%;
+    background: pink;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px 0 3px 0;
+}
+.side h3 {
+    display: inline-block !important;
+    height: 30px;
+    width: 100%;
+    background: #373871;
+    position: relative;
+    text-align: left;
+    line-height: 20px;
+    padding: 6px 6px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+.side h3+ol {
+    transition: all 0.5s;
+    max-height: 0;
+    height: auto;
+    overflow: hidden;
+    background: rgb(244, 244, 244);
+}
+.side h3:hover+ol {
+    max-height: 400px;
+}
+.side .collapse-button {
+    position: relative;
+    bottom: 20px;
+    left: 260px;
+}
+.sidecontentbox .thing {
+    width: 95% !important;
+}
+hr {
+    height: 1px;
+    margin: 10px 10px;
+}

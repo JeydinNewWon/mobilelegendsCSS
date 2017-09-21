@@ -1,0 +1,109 @@
+#siteTable {
+    padding-top: 45px;
+    display: block;
+    padding-right: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#RESStyleSheetTipPane-header,
+#RESStyleSheetTipPane {
+    display: none !important;
+}
+.sitetable {
+    list-style-type: none;
+}
+.listing-page .content {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 30px;
+    margin: 16px 352px 64px 16px;
+}
+.comments-page .content {
+    padding-top: 50px !important;
+}
+.sidecontentbox .content {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+}
+.rank {
+    display: none;
+}
+.child,
+.res .RES-keyNav-activeElement .md-container,
+.res .link .RES-keyNav-activeElement {
+    background: transparent !important;
+}
+.res-filterline {
+    width: 935px !important;
+    z-index: 40;
+}
+.thing {
+    padding: 5px;
+    box-sizing: border-box;
+    /*box-shadow: 0 1px 3px rgba(173,178,255,0.8);*/
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);*/
+    /*background: #373871;*/
+
+    background: #fff;
+    margin-bottom: 0;
+    width: 934px;
+    /*width: 100%;*/
+
+    border-bottom: 1px solid #e0d2d2;
+}
+.link a.title:visited,
+.thing .title:visited,
+.thing.visited .title {
+    color: #b0a2e6;
+}
+body,
+#sr-form,
+.create-reddit.fancy-settings.thing {
+    background: #2A2953;
+}
+.linefield {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    background: rgb(244, 244, 244);
+    border-radius: 3px;
+}
+.create-reddit.fancy-settings.thing {
+    padding: 20px;
+    padding-top: 50px !important;
+    box-sizing: border-box;
+}
+body .btn,
+body button,
+.c-btn-primary,
+.wiki-page .wiki-page-content .wiki_button {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font: 12px system-ui;
+    background: #0079d3;
+    color: #fff;
+    font-weight: bold;
+    border: 0px !important;
+    border-radius: 2px;
+    text-transform: capitalize;
+    padding: 8px !important;
+    margin: 4px 16px 4px 0 !important;
+}
+.footer.rounded {
+    background: rgba(255, 255, 255, 0.8);
+}
+.sheets .btn.right {
+    display: inline !important;
+    background: transparent;
+}
+.link {
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.link .usertext-body {
+    box-sizing: border-box;
+}
+.link .usertext-body .md {
+    border: 0px !important;
+    background: none;
+}

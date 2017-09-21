@@ -1,0 +1,105 @@
+#header {
+    background: url(%%header%%) center center;
+    background-size: cover
+}
+#header-bottom-left {
+    height: 223px
+}
+#header:before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 27px;
+    width: 100%;
+    background: #2A2953;
+    top: 89%;
+    left: 0;
+    border-bottom: 1px solid gray;
+}
+#header-img,
+.hover.pagename.redditname {
+    position: absolute;
+    font-size: 0!important
+}
+.hover.pagename.redditname {
+    bottom: 106%;
+    left: 28%
+}
+.hover.pagename.redditname a {
+    display: block!important;
+    background: url(%%ml-logo%%);
+    height: 256px;
+    width: 521px;
+    top: 10%;
+    bottom: 22%;
+    transform: scale(.4);
+    position: absolute;
+    text-indent: -9999em;
+    margin-bottom: 20%
+}
+#header-bottom-right {
+    background: #2A2953;
+    border-radius: 0;
+    position: absolute;
+    margin-top: 198px
+}
+#header-bottom-right .flat-list.hover .pref-lang.choice,
+#header-bottom-right .logout.hover,
+#header-bottom-right .user {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .7)!important;
+    font-family: Roboto, "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+#header-bottom-right .user>a {
+    color: rgba(255, 255, 255, .7)!important
+}
+#header-bottom-right .separator {
+    margin: 0 5px
+}
+.tabmenu {
+    z-index: 2;
+    margin-top: 207px;
+    margin-left: 0
+}
+.tabmenu li {
+    margin: 0;
+    position: relative;
+    bottom: 6px;
+    font-family: verdana, arial, helvetica, sans-serif
+}
+.tabmenu li a {
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 5.5px 8px!important;
+    border-top: 1px solid transparent;
+    box-sizing: border-box;
+    background: #2A2953;
+    text-align: center;
+    color: white
+}
+.tabmenu li a:hover,
+.tabmenu li.selected a:hover {
+    color: white;
+    background: #6066BD;
+    border-top: 1px solid white;
+    transition-property: background, color, border-top;
+    -webkit-transition-property: background, color, border;
+    -moz-transition-property: background, color, border;
+    -o-transition-property: background, color, border;
+    transition-timing-function: ease-in-out;
+    transition-duration: .4s, .4s, .4s;
+    -webkit-transition-duration: .4s, .4s, .4s;
+    -moz-transition-duration: .4s, .4s, .4s;
+    -o-transition-duration: .4s, .4s, .4s;
+}
+.tabmenu li.selected a {
+    border-top: 1px solid white!important;
+    color: white;
+    background: #2A2953;
+    border: 0px;
+}
+.comments-page .tabmenu {
+    margin-top: 208px
+}
